@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block main %}
+    <nav>
+        <p><a href = '{% url 'main' %}'>Fake CSV</a></p>
+        <p><a href="{% url 'generate_csv'%}">Schemas</a></p>
+        {% if request.user.is_authenticated%}
+		<p class="right">Hello, {{user}}   <a href="{% url 'logout' %}">Logout</a></p>
+        {% endif %}
+	</nav>
+  <h1>Delete "{{ object }}"?</h1>
+  <form method="post">
+    {% csrf_token %}
+    <input type="submit" value="Confirm" class="btn btn-danger">
+    <a href="{% url 'main' %}" class="btn btn-secondary">Cancel</a>
+  </form>
+{% endblock %}
