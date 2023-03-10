@@ -1,159 +1,218 @@
-		body {
-			margin: 0;
-			padding: 0;
-		}
-		nav {
-			background-color: #f6f6f6;
-			overflow: hidden;
-		}
-		nav p {
-			float: left;
-			display: block;
-			color: black;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-			font-size: 17px;
-		}
-		nav p.active {
-			background-color: #FFFFFF;
-			color: white;
-		}
-		nav p.right {
-			float: right;
-		}
-        		.container {
-			display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-		}
+/*		body {*/
+/*			margin: 0;*/
+/*			padding: 0;*/
+/*		}*/
+/*		nav {*/
+/*			background-color: #f6f6f6;*/
+/*			overflow: hidden;*/
+/*		}*/
+/*		nav p {*/
+/*			float: left;*/
+/*			display: block;*/
+/*			color: black;*/
+/*			text-align: center;*/
+/*			padding: 14px 16px;*/
+/*			text-decoration: none;*/
+/*			font-size: 17px;*/
+/*		}*/
+/*		nav p.active {*/
+/*			background-color: #FFFFFF;*/
+/*			color: white;*/
+/*		}*/
+/*		nav p.right {*/
+/*			float: right;*/
+/*		}*/
+/*        		.container {*/
+/*			display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    width: 600px;*/
+/*    margin: 0 auto;*/
+/*    padding: 20px;*/
+/*		}*/
 
-     .container {
-  max-width: 800px;
-  margin: 0 auto;
-}
+/*     .container {*/
+/*  max-width: 800px;*/
+/*  margin: 0 auto;*/
+/*}*/
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
+/*.row {*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*}*/
 
 
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
+/*.mx-auto {*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*}*/
 
-.text-center {
-  text-align: center;
-}
+/*.text-center {*/
+/*  text-align: center;*/
+/*}*/
 
-form {
-  margin-top: 20px;
-}
+/*form {*/
+/*  margin-top: 20px;*/
+/*}*/
 
-button {
-  margin-top: 10px;
-}
+/*button {*/
+/*  margin-top: 10px;*/
+/*}*/
 
-.btn-primary {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-}
+/*.btn-primary {*/
+/*  background-color: #007bff;*/
+/*  color: #fff;*/
+/*  border: none;*/
+/*  border-radius: 5px;*/
+/*  padding: 10px 20px;*/
+/*}*/
 
-.btn-primary:hover {
-  background-color: #0069d9;
-}
-		body {
-			margin: 0;
-			padding: 0;
-		}
-		nav {
-			background-color: #f6f6f6;
-			overflow: hidden;
-		}
-		nav p {
-			float: left;
-			display: block;
-			color: black;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-			font-size: 17px;
-		}
-		nav p.active {
-			background-color: #FFFFFF;
-			color: white;
-		}
-		nav p.right {
-			float: right;
-		}
-        		.container {
-			display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-		}
-		h1 {
-			margin: 0;
-			font-size: 32px;
-		}
-		button {
-			font-size: 16px;
-		}
-        table {
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 800px;
-  margin: 20px auto;
-}
+/*.btn-primary:hover {*/
+/*  background-color: #0069d9;*/
+/*}*/
+/*		body {*/
+/*			margin: 0;*/
+/*			padding: 0;*/
+/*		}*/
+/*		nav {*/
+/*			background-color: #f6f6f6;*/
+/*			overflow: hidden;*/
+/*		}*/
+/*        nav a{*/
+/*            color: black;*/
+/*        }*/
+/*		nav p {*/
+/*			float: left;*/
+/*			display: block;*/
+/*			color: black;*/
+/*			text-align: center;*/
+/*			padding: 14px 16px;*/
+/*			text-decoration: none;*/
+/*			font-size: 17px;*/
+/*		}*/
+/*		nav p.active {*/
+/*			background-color: #FFFFFF;*/
+/*			color: white;*/
+/*		}*/
+/*		nav p.right {*/
+/*			float: right;*/
+/*		}*/
+/*        		.container {*/
+/*			display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    width: 600px;*/
+/*    margin: 0 auto;*/
+/*    padding: 20px;*/
+/*		}*/
+/*		h1 {*/
+/*			margin: 0;*/
+/*			font-size: 32px;*/
+/*		}*/
+/*		button {*/
+/*			font-size: 16px;*/
+/*		}*/
+/*        table {*/
+/*  border-collapse: collapse;*/
+/*  width: 100%;*/
+/*  max-width: 800px;*/
+/*  margin: 20px auto;*/
+/*}*/
 
-th, td {
-  padding: 10px;
-  text-align: left;
-}
+/*th, td {*/
+/*  padding: 10px;*/
+/*  text-align: left;*/
+/*}*/
 
-th {
-  background-color: #FFFFFF;
-  font-weight: bold;
-}
+/*th {*/
+/*  background-color: #FFFFFF;*/
+/*  font-weight: bold;*/
+/*}*/
 
-td {
-    border: 1px solid gray;
-    padding: 8px;
-    text-align: left;
+/*td {*/
+/*    border: 1px solid gray;*/
+/*    padding: 8px;*/
+/*    text-align: left;*/
 
-}
-.delete{
-    color:red;
-    padding-left: 10px;
-}
+/*}*/
+/*.delete{*/
+/*    color:red;*/
+/*    padding-left: 10px;*/
+/*}*/
 
-a {
-  color: blue;
-  text-decoration: none;
-}
+/*a {*/
+/*  color: blue;*/
+/*  text-decoration: none;*/
+/*}*/
 
-a:hover {
-  text-decoration: underline;
-}
-  table {
-    border-collapse: collapse;
-  }
-  th {
-    border: 1px solid gray;
-    padding: 8px;
-    text-align: left;
-  }
-  .new{
-      color: white;
-  }
+/*a:hover {*/
+/*  text-decoration: underline;*/
+/*}*/
+/*  table {*/
+/*    border-collapse: collapse;*/
+/*  }*/
+/*  th {*/
+/*    border: 1px solid gray;*/
+/*    padding: 8px;*/
+/*    text-align: left;*/
+/*  }*/
+/*  .new{*/
+/*      color: white;*/
+/*  }*/
+
+/*  div{*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*    .row {*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    form {*/
+/*        background-color: #f8f9fa;*/
+/*        padding: 20px;*/
+/*        border-radius: 5px;*/
+/*        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+/*    }*/
+
+/*    form label {*/
+/*        font-weight: bold;*/
+/*        margin-right: 10px;*/
+/*    }*/
+
+/*    form input[type="text"],*/
+/*    form select {*/
+/*        padding: 5px;*/
+/*        border: 1px solid #ced4da;*/
+/*        border-radius: 4px;*/
+/*    }*/
+
+/*    form button[type="submit"] {*/
+/*        margin-top: 10px;*/
+/*    }*/
+/*    .container {*/
+/*  width: 100%;*/
+/*  max-width: 350px;*/
+/*  margin: 0 auto;*/
+/*  margin-top: 300px;*/
+/*  padding: 20px;*/
+/*  border: 1px solid #ddd;*/
+/*  border-radius: 5px;*/
+/*  background-color: #f1f1f1;*/
+/*}*/
+
+/*button {*/
+/*  display: block; !* make the button a block element *!*/
+/*  margin: 0 auto; !* center the button horizontally *!*/
+/*  background-color: #007bff; !* set the background color of the button *!*/
+/*  color: #fff; !* set the text color of the button *!*/
+/*  border: none; !* remove the border of the button *!*/
+/*  padding: 10px 20px; !* add some padding to the button *!*/
+/*    float: right;*/
+/*  font-size: 16px; !* set the font size of the button *!*/
+/*  cursor: pointer; !* change the cursor to a pointer when hovering over the button *!*/
+/*}*/
+
+/*button:hover {*/
+/*  background-color: #0062cc; !* change the background color of the button when hovering over it *!*/
+/*}*/
